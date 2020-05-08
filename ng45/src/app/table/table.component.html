@@ -1,0 +1,125 @@
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="">
+<head runat="server">
+
+  <script src="Scripts/angular.js"></script>
+  <script src="Scripts/jquery-1.8.3.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<form id="form1" ng-controller="EmpCtrl" ng-submit="save()">
+
+
+  <table border="2"  heigth="1000" width="1000" style="text-align: center; margin-left: 410px;">
+  <tr>
+    <td>
+      NAME
+    </td>
+    <td>
+      AGE
+    </td>
+    <td>
+     PROVINCE
+    </td>
+    <td>
+      COUNTRY
+    </td>
+  </tr>
+    <tr>
+      <td>
+        {{ data[0]}}
+      </td>
+      <td>
+        {{ data [1]}}
+      </td>
+      <td>
+
+        <div id="button"><a href="https://en.wikipedia.org/wiki/Sindh">    {{ data[2]}} </a></div>
+      </td>
+      <td>
+
+        <div id="button"><a href="https://en.wikipedia.org/wiki/Pakistan">  {{ data [3]}} </a></div>
+      </td>
+    </tr>
+
+    <tr>
+    <td>
+      {{ data1[0]}}
+    </td>
+    <td>
+      {{ data1 [1]}}
+    </td>
+    <td>
+
+      <div id="button"><a href="https://en.wikipedia.org/wiki/Punjab,_Pakistan">   {{ data1[2]}} </a></div>
+    </td>
+    <td>
+
+      <div id="button"><a href="https://en.wikipedia.org/wiki/Pakistan">  {{ data1[3]}} </a></div>
+    </td>
+    </tr>
+
+
+    <tr>
+      <td>
+        {{ data2[0]}}
+      </td>
+      <td>
+        {{ data2[1]}}
+      </td>
+      <td>
+
+        <div id="button"><a href="https://en.wikipedia.org/wiki/Balochistan,_Pakistan">  {{ data2[2]}} </a></div>
+      </td>
+      <td>
+
+        <div id="button"><a href="https://en.wikipedia.org/wiki/Pakistan">  {{ data2[3]}} </a></div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        {{ data3[0]}}
+      </td>
+      <td>
+        {{ data3[1]}}
+      </td>
+      <td>
+
+        <div id="button"><a href="https://en.wikipedia.org/wiki/Punjab,_Pakistan">{{ data3[2]}}</a></div>
+      </td>
+      <td>
+
+        <div id="button"><a href="https://en.wikipedia.org/wiki/Pakistan">  {{ data3[3]}} </a></div>
+      </td>
+    </tr>
+
+
+
+
+
+
+    <tr>
+      <td>
+        {{ data4[0]}}
+      </td>
+      <td>
+        {{ data4[1]}}
+      </td>
+      <td>
+        <div id="button"><a href="https://en.wikipedia.org/wiki/Khyber_Pakhtunkhwa">  {{ data4[2]}} </a></div>
+      </td>
+      <td>
+
+        <div id="button"><a href="https://en.wikipedia.org/wiki/Pakistan">  {{ data4[3]}} </a></div>
+      </td>
+    </tr>
+
+
+
+
+
+
+  </table>
+
+</form></body>
+</html>
